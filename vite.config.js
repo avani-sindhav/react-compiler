@@ -4,16 +4,17 @@ import react from "@vitejs/plugin-react";
 
 const ReactCompilerConfig = {
   // compilationMode: "annotation",
+  // // sorces: "",
 };
 
 export default defineConfig(() => {
   return {
     plugins: [
-      // react({
-      //   babel: {
-      //     plugins: [["babel-plugin-react-compiler", ReactCompilerConfig]],
-      //   },
-      // }),
+      react({
+        babel: {
+          plugins: [["babel-plugin-react-compiler", ReactCompilerConfig]],
+        },
+      }),
     ],
   };
 });

@@ -3,7 +3,7 @@ import { useEffect, memo } from "react";
 // let globalCount = 0;
 
 function Counter({ count, setCount, id }) {
-  // "use memo";
+  // "use no memo";
   useEffect(() => {
     console.log(`Counter UseEffect call for ${id}`);
   });

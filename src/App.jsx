@@ -4,7 +4,6 @@ import Example2 from "./components/Example2/Example2";
 
 function App() {
   return <Example1 />;
-
   // return <Example2 />;
 }
 
