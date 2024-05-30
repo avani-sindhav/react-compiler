@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 // import eslint from "vite-plugin-eslint";
 
 const ReactCompilerConfig = {
-  compilationMode: "annotation",
+  // compilationMode: "annotation",
 };
 
 export default defineConfig(() => {

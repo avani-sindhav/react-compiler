@@ -1,6 +1,6 @@
 import { useEffect, memo } from "react";
 
-// let globalCOunt = 0;
+// let globalCount = 0;
 
 function Counter({ count, setCount, id }) {
   // "use memo";
@@ -8,8 +8,8 @@ function Counter({ count, setCount, id }) {
     console.log(`Counter UseEffect call for ${id}`);
   });
 
-  // globalCOunt++;
-  // console.log(globalCOunt);
+  // globalCount++;
+  // console.log(globalCount);
 
   return (
     <>
@@ -18,7 +18,7 @@ function Counter({ count, setCount, id }) {
   );
 }
 
-// export default Counter;
+export default Counter;
 
-const memoCounter = memo(Counter);
-export default memoCounter;
+// const memoCounter = memo(Counter);
+// export default memoCounter;
