@@ -1,9 +1,14 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, memo } from "react";
 
-export default function Header() {
+function Header() {
   useEffect(() => {
     console.log("Header useEffect call ");
   });
 
   return <p>Header Component</p>;
 }
+
+export default Header;
+
+// const memoHeader = memo(Header);
+// export default memoHeader;
