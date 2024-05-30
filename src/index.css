@@ -80,3 +80,10 @@ button {
   color: white;
   margin: 10px;
 }
+
+div {
+  color: black;
+  font-size: 24px;
+  padding: 5px;
+  margin-left: 32px;
+}

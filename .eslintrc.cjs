@@ -10,7 +10,7 @@ module.exports = {
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   settings: { react: { version: "detect" } },
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
-  plugins: ["eslint-plugin-react-compiler", "react-refresh"],
+  plugins: ["react-refresh", "eslint-plugin-react-compiler"],
   rules: {
     "react-compiler/react-compiler": "error",
     "react/prop-types": "off",
