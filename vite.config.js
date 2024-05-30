@@ -9,14 +9,11 @@ const ReactCompilerConfig = {
 export default defineConfig(() => {
   return {
     plugins: [
-      // eslint({
-      //   failOnError: false,
+      // react({
+      //   babel: {
+      //     plugins: [["babel-plugin-react-compiler", ReactCompilerConfig]],
+      //   },
       // }),
-      react({
-        babel: {
-          plugins: [["babel-plugin-react-compiler", ReactCompilerConfig]],
-        },
-      }),
     ],
   };
 });
